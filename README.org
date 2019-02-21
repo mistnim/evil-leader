@@ -1,7 +1,9 @@
+* Evil leader fork with separate leader key for mode specific keybindings 
+
 In this fork of evil leader the default keymap and the mode specific
 keymaps are set on two different leader keys.
 
-You configure the new mode leader key with =(evil-leader/set-leader
+You configure the new mode leader key with =evil-leader/set-mode-leader=, e.g. =(evil-leader/set-mode-leader
 ",")=, everything else should work the same way.
 
 * What's Evil Leader?

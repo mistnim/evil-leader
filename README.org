@@ -1,3 +1,9 @@
+In this fork of evil leader the default keymap and the mode specific
+keymaps are set on two different leader keys.
+
+You configure the new mode leader key with =(evil-leader/set-leader
+",")=, everything else should work the same way.
+
 * What's Evil Leader?
   Evil Leader provides the =<leader>= feature from Vim that provides an easy way
   to bind keys under a variable prefix key. For an experienced Emacs User it is
